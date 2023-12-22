@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [selenium automation]" guice-stage="DEVELOPMENT">
+  <parameter name="ul" value="FACEBOOK"/>
+  <test thread-count="5" name="Testng(failed)">
+    <classes>
+      <class name="testngg.Program4">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="test"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- testngg.Program4 -->
+    </classes>
+  </test> <!-- Testng(failed) -->
+</suite> <!-- Failed suite [selenium automation] -->
